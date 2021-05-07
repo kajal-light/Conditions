@@ -1,4 +1,4 @@
-package com.Ifloop;
+package com.kajal.loops;
 //ven a number x, you should check whether it is even or odd.
 
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 //Only write the code where instructed in the snippet below. The return statement and the variable to be returned are already mentioned for you. Don’t worry too much about the return statement for the moment, and just set the value of the answer correctly.
 
-public class IF {
+public class If {
 
 	public static void main(String[] args) {
 
@@ -21,12 +21,12 @@ public class IF {
 		if (x % 2 == 0) {
 			ans = "even";
 
-		} else
+		} else {
 
 			ans = "odd";
-
+		}
 		System.out.println(ans);
-
+		sc.close();
 	}
 
 }
